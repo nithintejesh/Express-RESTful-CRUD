@@ -15,6 +15,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 20px;
+    flex-direction: column;
 }
 
 /* Container styles */
@@ -69,74 +71,65 @@ body {
     background-color: #45a049;
 }
 
-        body {
-            /* font-family: Arial, sans-serif; */
-            background-color: #f4f4f4;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }       
 
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    max-width: 600px;
+}
 
-        .post {
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-            width: 60%;
-            max-width: 600px;
-        }
+.post h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
 
-        .post h3 {
-            font-size: 18px;
-            color: #333;
-            margin-bottom: 5px;
-        }
+.post h4 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
 
-        .post h4 {
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 10px;
-        }
+.post a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
-        .post a {
-            text-decoration: none;
-            color: #007bff;
-            margin-right: 10px;
-            margin-bottom: 10px;
-        }
+.post a:hover {
+    text-decoration: underline;
+}
 
-        .post a:hover {
-            text-decoration: underline;
-        }
+.post button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
-        .post button {
-            background-color: #dc3545;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
+.post button:hover {
+    background-color: #c82333;
+}
 
-        .post button:hover {
-            background-color: #c82333;
-        }
+.add-post-link {
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+}
 
-        .add-post-link {
-            margin-top: 20px;
-            font-size: 16px;
-            text-decoration: none;
-            color: #007bff;
-        }
-
-        .add-post-link:hover {
-            text-decoration: underline;
-        }
+.add-post-link:hover {
+    text-decoration: underline;
+}
