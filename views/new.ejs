@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Add Post</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Create new post</h2>
+        <!-- <p>Post id: <%= post.id %></p> -->
+        
+        <form action="/posts" method="post">
+            <p><input type="text" placeholder="enter username" name="username"></p>
+            <textarea rows="3" cols="15" placehodler="enter content" name="content"></textarea>
+            <button>Add Post</button>
+        </form>
+    </div>
+</body>
+</html>
